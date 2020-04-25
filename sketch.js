@@ -13,6 +13,8 @@ onst Engine = Matter.Engine
   World= Matter.World;
   Bodies = Matter.Bodies;
 
+var engine,world;
+
 function setup() {
     // Setup the canvas, the ground the, tanker, the shooting ball and the bubble balls.
     var canvas = createCanvas(1200,400);
@@ -50,7 +52,3 @@ background(0);
    ball6.display();
 }
 
-
-function keyReleased() {
-    // Call the shoot method for the cannon.
-}
